@@ -13,5 +13,5 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
-add_executable(IKFast_leg_LF_loader src/IKFast_leg_LF_loader.cpp)
-target_link_libraries(IKFast_leg_LF_loader ${catkin_LIBRARIES})
+add_executable(IKFast_loader src/IKFast_loader.cpp)
+target_link_libraries(IKFast_loader ${catkin_LIBRARIES})
